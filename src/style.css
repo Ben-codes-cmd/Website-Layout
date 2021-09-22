@@ -13,7 +13,7 @@ header {
     display: flex;
     flex-grow: 0; /* Stay same size*/
     justify-content: space-between;
-    background-color: rgb(44, 75, 125);
+    background-color: #1F2937;
     padding: 5px 80px 5px 40px;
 }
 
@@ -38,31 +38,71 @@ a {
 .logo {
     font-weight: 700;
 }
+
+/* All boxes*/
+.box {
+    display: flex;
+    flex: 1;
+}
+
 /* First Box*/
 
 .description {
-    display: flex;
-    background-color:rgb(44, 75, 125);
-    flex: 1;
+    background-color: #1F2937;
+    padding: 80px;
 }
 
 /* Second Box*/
 .info {
-    display: flex;
     background-color: white;
-    flex: 1 0 auto;
 }
 
 /* Third box*/
 .quote {
-    display: flex;
     background-color: lightgray;
-    flex: 1;
 }
 
 /* Fourth Box*/
 .signup {
-    display: flex;
     background-color: white;
+}
+
+.left {
     flex: 1;
+    display: flex;
+    flex-direction:column;
+    color: white;
+    margin: 0px;
+}
+
+.left *{
+    margin: 10px;
+}
+.left h2 {
+    font-size: 48px;
+    font-weight:bolder;
+}
+
+.left p {
+    color: lightgray;
+}
+
+.left button {
+    background-color: #3882F6;
+    width: 23%;
+    align-items: left;
+    border-radius: 8px;
+    border: none;
+    color: inherit;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.right {
+    background-color: gray;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
