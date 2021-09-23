@@ -83,12 +83,19 @@ button {
 }
 
 .right {
-    background-color: gray;
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
+    background-image: url("../images/stars.jpg");
+    background-size: 100% 100%;
+}
+
+@media screen and (min-width: 1100px) {
+    .right {
+        background-image: url("../images/galaxy.jpg");
+    }
 }
 
 /* Second Box*/
@@ -118,8 +125,6 @@ button {
     border-width: 2px;
 }
 
-.panel p {
-}
 /* Third box*/
 .quote {
     background-color: #E5E7EB;
@@ -192,4 +197,14 @@ button {
 
 .bold {
     font-weight: bold;
+}
+
+/* Footer */
+
+footer {
+    flex: 1;
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    font-family: Inter;
 }
