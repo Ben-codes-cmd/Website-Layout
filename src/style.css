@@ -32,7 +32,6 @@ header {
 }
 a {
     text-decoration: none;
-    font-weight: 500;
 }
 
 .logo {
@@ -98,6 +97,16 @@ button {
     }
 }
 
+@media screen and (max-width: 919px) {
+    .right {
+        background-image: none; 
+        flex-basis: 0px;
+    }
+    .left {
+        flex: 1 1 100%;
+    }
+}
+
 /* Second Box*/
 .info {
     background-color: white;
@@ -160,7 +169,7 @@ button {
     margin: 0;
 }
 
-.nested {
+.bluebox {
     background-color: #3882F6;
     border-radius: 8px;
     margin: 40px 10%;
@@ -202,9 +211,8 @@ button {
 /* Footer */
 
 footer {
-    flex: 1;
     background-color: #1F2937;
     color: white;
-    text-align: center;
+    justify-content: center;
     font-family: Inter;
 }
