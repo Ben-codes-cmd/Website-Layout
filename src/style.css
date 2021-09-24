@@ -101,6 +101,7 @@ button {
 @media screen and (min-width: 1100px) {
     .right {
         background-image: url("../images/galaxy.jpg");
+        height: 300px;
     }
 }
 
