@@ -121,6 +121,7 @@ button {
     justify-content:space-around;
     margin: 0px 10% 40px 10%;
     flex-wrap: wrap;
+    gap: 5%;
 }
 
 .black-heading {
