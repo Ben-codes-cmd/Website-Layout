@@ -14,7 +14,13 @@ header {
     flex-grow: 0; /* Stay same size*/
     justify-content: space-between;
     background-color: #1F2937;
-    padding: 5px 90px 5px 90px;
+    padding: 5px 10%;
+    justify-items: center;
+}
+
+.links {
+    display: flex;
+    align-items: center;
 }
 
 .links ul {
@@ -27,15 +33,16 @@ header {
 .header {
     color: white;
     font-family: Inter;
-    font-size: 18px;
     margin: 0px;
 }
 a {
     text-decoration: none;
+    font-size: 18px;
 }
 
 .logo {
     font-weight: 700;
+    font-size: 30px;
 }
 
 /* All boxes*/
@@ -48,7 +55,7 @@ a {
 
 .description {
     background-color: #1F2937;
-    padding: 80px;
+    padding: 80px 10%;
 }
 .left {
     flex: 1;
@@ -110,8 +117,9 @@ button {
 /* Second Box*/
 .info {
     background-color: white;
-    gap: 20px;
+    justify-content:space-around;
     margin: 0px 10% 40px 10%;
+    flex-wrap: wrap;
 }
 
 .black-heading {
@@ -121,15 +129,15 @@ button {
 }
 
 .window {
-    flex: 1;
+    width: 300px;
     text-align: center;
 }
 
 .panel {
     border-color:#3882F6;
     border-radius: 10px;
-    flex: 1;
-    height: 150px;
+    width: 300px;
+    height: 300px;
     border-style: solid;
     border-width: 2px;
 }
